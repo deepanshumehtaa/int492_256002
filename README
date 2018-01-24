@@ -1,0 +1,8 @@
+# Simple Linear Regression
+
+1. Clean & Compile
+$ make clean
+$ make
+
+2. Execute
+$ make run
