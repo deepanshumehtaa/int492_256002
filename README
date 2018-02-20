@@ -4,9 +4,8 @@ reference: https://deeplearning4j.org/quickstart
 1. Install JDK 1.7+ (64-bit version only)
 
 Use the following command to confirm your Java installation:
-```
+
 java -version
-```
 
 2. Install Apache Maven 
 (ref: https://maven.apache.org/install.html)
@@ -16,13 +15,14 @@ java -version
 http://www-us.apache.org/dist/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.zip
 
 2.3 extract the archive to your preferred location:
-    unzip apache-maven-3.5.2-bin.zip
+
+unzip apache-maven-3.5.2-bin.zip
 
 2.4 add the `bin` directory of the created directory `apache-maven-3.5.2` to the PATH environment variable
 
 2.5 confirm your Maven installation with the following command:
 
-`mvn -v`
+mvn --version
 
 3. Install IntelliJ IDEA
 
@@ -38,6 +38,27 @@ MacOS: https://www.python.org/downloads/mac-osx/
 2. Install Anaconda
 https://www.anaconda.com/download/
 
-3. Adding Anaconda's `Scripts" to the PATH environment
+3. Adding Anaconda's "Scripts" to the PATH environment.
+
+4. Setting up a virtual environment for our deep learning workspace
+
+conda create --name deeplearning python=3.5 numpy scipy matplotlib scikit-learn
+
+5. Activate the environment with the following command.
+
+activate deeplearning
+
+6. Install TensorFlow
+
+pip install tensorflow
+
+7. Install Keras
+
+pip install keras
+
+8. Test your installation by running
+
+python mnist_mlp.py
+
 
 
