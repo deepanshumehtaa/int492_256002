@@ -1,4 +1,7 @@
+#####################################################################
 # Installing DL4J
+#####################################################################
+
 reference: https://deeplearning4j.org/quickstart
 
 1. Install JDK 1.7+ (64-bit version only)
@@ -28,7 +31,9 @@ mvn --version
 
 4. Install Git
 
-# Installing Keras with a TensorFlow backend for deep learning
+#####################################################################
+# Installing Keras with a TensorFlow backend for deep learning      
+#####################################################################
 (ref: http://inmachineswetrust.com/posts/deep-learning-setup/)
 
 1. Install Python 3
@@ -59,6 +64,4 @@ pip install keras
 8. Test your installation by running
 
 python mnist_mlp.py
-
-
 
