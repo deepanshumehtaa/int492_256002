@@ -4,8 +4,9 @@ reference: https://deeplearning4j.org/quickstart
 1. Install JDK 1.7+ (64-bit version only)
 
 Use the following command to confirm your Java installation:
-
-`java -version`
+```
+java -version
+```
 
 2. Install Apache Maven 
 (ref: https://maven.apache.org/install.html)
@@ -26,4 +27,17 @@ http://www-us.apache.org/dist/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bi
 3. Install IntelliJ IDEA
 
 4. Install Git
+
+# Installing Keras with a TensorFlow backend for deep learning
+(ref: http://inmachineswetrust.com/posts/deep-learning-setup/)
+
+1. Install Python 3
+Windows: https://www.python.org/downloads/windows/
+MacOS: https://www.python.org/downloads/mac-osx/
+
+2. Install Anaconda
+https://www.anaconda.com/download/
+
+3. Adding Anaconda's `Scripts" to the PATH environment
+
 
