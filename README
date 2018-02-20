@@ -1,8 +1,29 @@
-# Simple Linear Regression
+# Installing DL4J
+reference: https://deeplearning4j.org/quickstart
 
-1. Clean & Compile
-$ make clean
-$ make
+1. Install JDK 1.7+ (64-bit version only)
 
-2. Execute
-$ make run
+Use the following command to confirm your Java installation:
+
+`java -version`
+
+2. Install Apache Maven 
+(ref: https://maven.apache.org/install.html)
+2.1 add a path to your JDK installation to the `JAVA_HOME` environment variable.
+2.2 download Maven distribution archive from:
+
+http://www-us.apache.org/dist/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.zip
+
+2.3 extract the archive to your preferred location:
+    unzip apache-maven-3.5.2-bin.zip
+
+2.4 add the `bin` directory of the created directory `apache-maven-3.5.2` to the PATH environment variable
+
+2.5 confirm your Maven installation with the following command:
+
+`mvn -v`
+
+3. Install IntelliJ IDEA
+
+4. Install Git
+
