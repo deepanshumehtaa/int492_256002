@@ -61,7 +61,8 @@ pip install tensorflow
 
 pip install keras
 
-8. Test your installation by running
+8. Test your installation by running:
 
-python mnist_mlp.py
+jupyer notebook
 
+And, create a new notebook mnist_mlp.ipynb.
