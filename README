@@ -61,8 +61,12 @@ pip install tensorflow
 
 pip install keras
 
+8. Install Jupyter
+
+pip install jupyter
+
 8. Test your installation by running:
 
-jupyer notebook
+jupyter notebook
 
 And, create a new notebook mnist_mlp.ipynb.
