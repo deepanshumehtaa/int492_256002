@@ -1,0 +1,2 @@
+export MAVEN_OPTS="-Xms1024m -Xmx6000m"
+mvn exec:java -Dexec.mainClass=co.kulwadee.int492.convnet2.CatsAndDogsCNN
