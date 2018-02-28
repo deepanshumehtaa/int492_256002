@@ -64,7 +64,7 @@ public class CatsAndDogsCNN {
     private static final int labelIndex = 1;
     private static final int batchSize = 16;
     private static final int iterations = 1;
-    private static final int epochs = 80;
+    private static final int epochs = 10;
 
     public static void main(String[] args) throws Exception {
 
